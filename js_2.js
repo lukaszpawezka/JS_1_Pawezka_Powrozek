@@ -1,5 +1,4 @@
 /*jslint browser */
-/*jslint indent: 4 */
 function parsujInt() {
  var liczba = document.getElementById("poleINT").value;
  liczba = parseInt(liczba);
@@ -16,7 +15,7 @@ function losujLiczbe() {
 }
 function jakaLiczba() {
  var liczbaINT = document.getElementById("poleINT").value;
- var liczbaFLOAT = document.getElementById("poleFLOAT").value;	
+ var liczbaFLOAT = document.getElementById("poleFLOAT").value;
  if (liczbaINT > 0) {
   document.getElementById("parsInt").innerHTML="Ta liczba jest dodatnia.";
  }
@@ -60,7 +59,7 @@ function jakiDzien(){
   case 6:
    dzien = "Sobota";
  break;
-}	
+}
  document.getElementById("jakiDzien").innerHTML = "Dzisiaj jest " + dzien + ".";
 }
 function odliczanieWhile() {
